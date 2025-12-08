@@ -1,0 +1,27 @@
+name: book_manager
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0 # Tôi chỉnh lại mức này để tương thích tốt hơn, 3.9.0 có thể gây lỗi nếu máy bạn chưa cập nhật
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # --- CÁC THƯ VIỆN ĐÃ THÊM CHO BÀI TẬP ---
+  firebase_core: ^2.27.0     # Kết nối Firebase
+  cloud_firestore: ^4.15.8   # Cơ sở dữ liệu
+  provider: ^6.1.2           # Quản lý trạng thái
+  # ----------------------------------------
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
